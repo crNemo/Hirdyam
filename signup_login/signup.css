@@ -1,3 +1,7 @@
+:root{
+    ---white-color : #FFFDD0
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -6,7 +10,7 @@ body{
     min-width: 100vw;
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.847);
-    color: #FFFFF0;
+    color: var(---white-color);
     font-family: sans-serif;
 }
 
@@ -41,7 +45,7 @@ form{
 .input_container > *:first-child {
     background-color: #7DF9FF;
     transition: 1s scale, 1s border;
-    color: #FFFFF0;
+    color: var(---white-color);
 }
 .input_container > *:first-child:hover{
     scale: 1.1;
@@ -57,7 +61,7 @@ form{
 .submit{
     background-color: #7DF9FF;
     padding: 0.35rem;
-    color: #FFFFF0;
+    color: var(---white-color);
     font-weight: bold;
     border-radius: 8px;
     text-align: center;
