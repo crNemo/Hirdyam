@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hirdyam</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="navbar">
             <div class="navbar-logo">
+                <h1>logo</h1>
                 <div class="logo"></div>
             </div>
             <div class="navs">
@@ -24,13 +29,44 @@
             </div>
         </div>
     </header>
-    <main>
 
-    </main>
-    <footer>
-        
-    </footer>
+
+    <div class="main">
+        <div class="box"></div>
+
+        <div class="sechdule-menu">
+            <h2 style="color:white;">Sechdule Your Appointment</h2>
+                <form action="#" class="sech">
+                <div class="input-box1">
+                    <span class="em-icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                    <span class="contact-icon"><i class="fa-solid fa-address-book"></i></span>
+                    <input type="number" required>
+                    <label>Contact Number</label>
+                </div>
+
+                <div class="input-box2">
+                    <input type="text" required>
+                    <label>Name</label>
+                </div>
+
+                <div class="date">
+                        <span class="date-icon"><i class="fa-solid fa-calendar-days"></i></span>
+                    <label for="Select Date">
+                        <input type="date">Select Date
+                    </label>
+                    <span class="time-icon"><i class="fa-solid fa-clock"></i></span>
+                    <input type="time">
+                    <label>Select Time</label>
+                </div>
+                <button type="submit" class="fix-btn">Fix Your Sechdule</button>
+            </form>
+        </div>
+    </div>
+
 
     <script src="./script.js"></script>
 </body>
+
 </html>
