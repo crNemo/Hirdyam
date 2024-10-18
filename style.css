@@ -63,7 +63,7 @@
         width: fit-content;
         height: 60vh;
         padding: 1rem;
-        display: inline-block;
+        display: none;
     }
     .navs{
         flex-direction: column;
