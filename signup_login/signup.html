@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <form action="">
+        <div class="username input_container">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="password input_container">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div class="email input_container">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="phone_number input_container">
+            <label for="phone_number">Phone number:</label>
+            <input type="tel" name="phone_number" id="phone_number">
+        </div>
+        <div class="age input_container">
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <div class="gender_container">
+            <p style="font-weight:bold">Gender:</p>
+            <div class="gender male input_container">
+                <label for="male">Male:</label>
+                <input type="radio" name="gender" id="male" value="male">
+            </div>
+            <div class="gender female input_container">
+                <label for="female">Female:</label>            
+                <input type="radio" name="gender" id="female" value="female">
+            </div>
+        </div>
+
+        <submit class="submit">Submit</submit>
+    </form>
+</body>
+</html>
